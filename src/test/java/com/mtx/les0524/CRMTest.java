@@ -218,6 +218,7 @@ public class CRMTest {
 		JSONObject parseObject = JSONObject.parseObject(response);
 		JSONObject dataObject = parseObject.getJSONObject("data");
 		String customerName = dataObject.getString("customerName");
+		System.out.println(customerName);
 		String customerId = dataObject.getString("customerId");
 		//System.out.println("customerName:"+customerName);
 		
