@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApiTestSuite]">
+  <test name="Javamall">
+    <classes>
+      <class name="com.auto.crazyapi.Day2_5_PropGenerator"/>
+      <class name="com.auto.crazyapi.Day2_5_PropConsumer"/>
+    </classes>
+  </test> <!-- Javamall -->
+</suite> <!-- Failed suite [ApiTestSuite] -->

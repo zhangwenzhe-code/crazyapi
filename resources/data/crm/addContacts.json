@@ -1,0 +1,13 @@
+{
+	"entity": {
+		"name": "沙漠",
+		"customer_id": 5,
+		"mobile": "18098909090",
+		"telephone": "01023456789",
+		"email": "shddhdd@163.com",
+		"post": "总经理",
+		"address": "北京霍营",
+		"next_time": "2020-04-23 16:03:47",
+		"remark": "这是备注"
+	}
+}

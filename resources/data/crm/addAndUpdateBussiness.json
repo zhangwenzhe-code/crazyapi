@@ -1,0 +1,24 @@
+{
+	"entity": {
+		"business_name": "商机1",
+		"customer_id": 4,
+		"money": "1234",
+		"deal_date": "2020-04-01 17:19:38",
+		"remark": "爱谁谁所",
+		"type_id": 2,
+		"status_id": 4,
+		"totalPrice": "0.00",
+		"discountRate": 0
+	},
+	"product": [{
+		"name": "Java全栈自动化",
+		"categoryName": "默认",
+		"unit": "个",
+		"price": "6780.00",
+		"salesPrice": "6780.00",
+		"num": 0,
+		"discount": 0,
+		"subtotal": 0,
+		"productId": 1
+	}]
+}

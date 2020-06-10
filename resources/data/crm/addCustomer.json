@@ -1,0 +1,15 @@
+{
+	"entity": {
+		"customer_name": "客户123",
+		"mobile": "18991112345",
+		"telephone": "01028375678",
+		"website": "http://testfan.cn",
+		"next_time": "2020-04-02 00:00:00",
+		"remark": "这是备注",
+		"address": "北京市,北京城区,昌平区",
+		"detailAddress": "霍营地铁",
+		"location": "",
+		"lng": "",
+		"lat": ""
+	}
+}

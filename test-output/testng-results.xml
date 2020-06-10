@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="754" started-at="2020-06-07T01:52:24Z" finished-at="2020-06-07T01:52:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="754" started-at="2020-06-07T01:52:24Z" finished-at="2020-06-07T01:52:25Z">
+      <class name="com.mtx.les0524.CrmAddBussinessTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mtx.les0524.CrmAddBussinessTests@343f4d3d]" name="init" is-config="true" duration-ms="248" started-at="2020-06-07T01:52:24Z" finished-at="2020-06-07T01:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mtx.les0524.CrmAddBussinessTests@343f4d3d]" name="setUp" is-config="true" duration-ms="347" started-at="2020-06-07T01:52:24Z" finished-at="2020-06-07T01:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test003_addAndUpdateBussiness()[pri:0, instance:com.mtx.les0524.CrmAddBussinessTests@343f4d3d]" name="test003_addAndUpdateBussiness" duration-ms="139" started-at="2020-06-07T01:52:24Z" description="名称字段空" finished-at="2020-06-07T01:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003_addAndUpdateBussiness -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.mtx.les0524.CrmAddBussinessTests@343f4d3d]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-06-07T01:52:25Z" finished-at="2020-06-07T01:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mtx.les0524.CrmAddBussinessTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

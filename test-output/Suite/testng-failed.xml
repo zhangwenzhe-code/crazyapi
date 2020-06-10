@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.auto.crazyapi.report.ExtentIReporterListenerUtil"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="1" name="CRM系统接口测试(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.api0401.AddCustomerTest">
+        <methods>
+          <include name="init"/>
+          <include name="test005_addCustomer"/>
+          <include name="test004_addCustomer"/>
+          <include name="test007_addCustomer" invocation-numbers="1 3 4 5 6 7 8 9 10"/>
+          <include name="close"/>
+          <include name="test006_addCustomer"/>
+        </methods>
+      </class> <!-- com.auto.api0401.AddCustomerTest -->
+      <class name="com.auto.api0401.AddProductTest">
+        <methods>
+          <include name="init"/>
+          <include name="test004_addProduct"/>
+          <include name="test003_addProduct"/>
+          <include name="test002_addProduct"/>
+          <include name="test007_addProduct"/>
+          <include name="test005_addProduct"/>
+          <include name="test006_addProduct"/>
+          <include name="close"/>
+          <include name="test001_addProduct"/>
+        </methods>
+      </class> <!-- com.auto.api0401.AddProductTest -->
+    </classes>
+  </test> <!-- CRM系统接口测试(failed) -->
+</suite> <!-- Failed suite [Suite] -->

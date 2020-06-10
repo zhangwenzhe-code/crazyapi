@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Suite对应测试套件,一个Suite可以有多个Test -->
+<suite name="ApiTestSuite">
+	<test name="Javamall">
+		<classes>
+			<!-- <class name="com.auto.crazyapi.Day2_5_PropGenerator" />
+	    	<class name="com.auto.crazyapi.Day2_5_PropConsumer" /> -->
+	    	
+	    	<class name="com.mtx.les0524.CrmAddCustomerTests" />
+	    	<class name="com.mtx.les0524.CrmAddContractsTests" />
+		</classes>
+	</test>
+</suite>
