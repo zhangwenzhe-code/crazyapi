@@ -218,9 +218,8 @@ public class CRMTest {
 		JSONObject parseObject = JSONObject.parseObject(response);
 		JSONObject dataObject = parseObject.getJSONObject("data");
 		String customerName = dataObject.getString("customerName");
-		System.out.println(customerName);
 		String customerId = dataObject.getString("customerId");
-		//System.out.println("customerName:"+customerName);
+		System.out.println("customerName:"+customerName);
 		
 		Object[][] data = JdbcDataUtil.getData(conn, "SELECT customer_id,customer_name from 72crm_crm_customer ORDER BY customer_id DESC LIMIT 1");
 		String id=data[0][0].toString();
