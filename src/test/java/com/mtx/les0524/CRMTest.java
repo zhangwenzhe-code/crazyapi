@@ -224,7 +224,7 @@ public class CRMTest {
 		Object[][] data = JdbcDataUtil.getData(conn, "SELECT customer_id,customer_name from 72crm_crm_customer ORDER BY customer_id DESC LIMIT 1");
 		String id=data[0][0].toString();
 		String name=data[0][1].toString();			
-		System.out.println("name:"+name);
+		//System.out.println("name:"+name);
 		
 		Assert.assertEquals(id, customerId);
 		Assert.assertEquals(name, customerName);
